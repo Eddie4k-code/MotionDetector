@@ -1,7 +1,7 @@
 from sensor import MotionSensor
 
 
-print("Hello world.")
+sensor = MotionSensor(12)
 
 
 

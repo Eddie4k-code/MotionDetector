@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 import time
 
-class MotionSensor(self):
+class MotionSensor:
     def __init__(self, motionPin):
         self.motionPin = motionPin
 
